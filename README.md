@@ -62,7 +62,8 @@ Managing dependencies using requirements.txt
 Structuring a Python project
 
 📸 Demo
-![alt text](<hotdog result-2.jpeg>)
+![hotdog result](https://github.com/user-attachments/assets/19f2b8b5-f720-4061-b58b-9d76758849c5)
+
 
 🔗 Connect with Me
 
