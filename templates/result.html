@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+<body>
+    <h1>Result</h1>
+
+    {% if is_hotdog %}
+        <h2 style="color: green;">🌭 HOT DOG</h2>
+    {% else %}
+        <h2 style="color: red;">❌ NOT HOT DOG</h2>
+    {% endif %}
+
+    <p>Confidence: {{ score }}%</p>
+
+    <img src="data:image/jpeg;base64,{{ img_data }}" width="300"/>
+
+    <br><br>
+    <a href="/">Try another image</a>
+</body>
+</html>
